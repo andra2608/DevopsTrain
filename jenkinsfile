@@ -3,7 +3,7 @@ pipeline {
         stages{
             stage('cloning'){
                 steps{
-                    sh 'git clone '
+                    sh 'git clone https://github.com/andra2608/DevopsTrain.git'
 }
 }
 }
